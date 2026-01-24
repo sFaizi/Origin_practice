@@ -1,0 +1,14 @@
+.product {
+  width: 200px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  text-align: center;
+  margin: 50px auto;
+}
+
+button {
+  background: green;
+  color: white;
+  border: none;
+  padding: 8px;
+}
