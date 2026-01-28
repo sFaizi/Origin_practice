@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #1e293b;
+  color: #fff;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: #0f172a;
+  padding: 25px;
+  width: 350px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#quote {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+#author {
+  font-style: italic;
+  margin-bottom: 20px;
+  color: #94a3b8;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #38bdf8;
+  color: #000;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #0ea5e9;
+}
