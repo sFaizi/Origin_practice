@@ -1,4 +1,3 @@
-// Class to manage Quotes
 class QuoteApp {
   constructor() {
     this.quoteEl = document.getElementById("quote");
@@ -10,7 +9,6 @@ class QuoteApp {
     this.btn.addEventListener("click", () => this.getQuote());
   }
 
-  // Async function using fetch API
   async getQuote() {
     try {
       this.showLoading();
@@ -42,5 +40,4 @@ class QuoteApp {
   }
 }
 
-// Create object from class
 const app = new QuoteApp();
